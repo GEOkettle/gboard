@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#config/*": ["src/config/*"],
+      "#loaders/*": ["src/loaders/*"],
+      "#/*": ["src/*"],
+      "#models/*": ["./src/models/*"],
+      "#loaders": ["./src/loaders"],
+      "#api/*": ["./src/api/*"],
+      "#subscribers/*": ["./src/subscribers/*"],
+
+    }
+  },
+  "include": ["src/**/*"]
+}
