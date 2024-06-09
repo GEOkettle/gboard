@@ -11,3 +11,5 @@ If you have any further questions, feel free to contact me at: jsonmiou@gmail.co
 이 앱은 JS, MVC 구조 기반의 Node.js 애플리케이션의 예시로, @santiq의 [Bulletproof Node.js 프로젝트](https://dev.to/santypk4/bulletproof-node-js-project-architecture-4epf), Spring Boot 및 Nest.js에서 영감을 받았습니다. 이 앱은 개인 학습용으로 제작되었으므로, 기여, 비판, 공유 모두 환영합니다.
 
 추가 질문이 있으시면 jsonmiou@gmail.com으로 연락 주세요.
+
+[Geo's portfolio](https://geopf.geolab.kro.kr)에서 앱구조 및 사용법을 확인할 수 있습니다.
