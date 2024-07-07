@@ -16,7 +16,6 @@ export default async () => {
 
   const eventsPath = path.join(__dirname, '../subscribers');
   const eventFiles = fs.readdirSync(eventsPath).filter((file) => file.endsWith('.js'));
-
   try {
     for (const file of eventFiles) {
       const filePath = pathToFileURL(path.join(eventsPath, file)).href;
@@ -27,4 +26,5 @@ export default async () => {
   } catch (e) {
     Logger.error('❌ failed to load subs');
   } 
+
 }

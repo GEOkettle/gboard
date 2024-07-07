@@ -22,7 +22,7 @@ export default async ({ app }) => {
     // It shows the real origin IP in the heroku or Cloudwatch logs
     app.set('trust proxy', 1);
 
-    const whitelist = ['http://localhost:5000'];
+    const whitelist = ['http://localhost:5000', 'http://localhost:3000'];
     const corsOptions = {
       origin: function (origin, callback) {
         if (!origin) {
